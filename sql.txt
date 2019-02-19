@@ -1,0 +1,33 @@
+CREATE DATABASE msajce;
+USE msajce;
+CREATE TABLE cse(
+cse_name VARCHAR(100),
+cse_addr VARCHAR(100),
+cse_age INT,
+cse_mark INT
+); 
+desc cse;
+INSERT INTO cse (cse_name,cse_addr,cse_age,cse_mark) values ("xx","xxx",12,80);
+
+CREATE TABLE ece(
+ece_name VARCHAR(100),
+ece_addr VARCHAR(100),
+ece_age INT,
+ece_mark INT
+);
+desc ece;
+INSERT INTO ece (ece_name,ece_addr,ece_age,ece_mark) values ("yy","yyy",24,80);
+
+CREATE TABLE IT(
+IT_name VARCHAR(100),
+IT_addr VARCHAR(100),
+IT_age INT,
+IT_mark INT
+);
+desc IT;
+INSERT INTO IT (IT_name,IT_addr,IT_age,IT_mark) values ("zz","zzz",24,80);
+show DATABASES;
+drop table IT;
+desc IT;
+
+
